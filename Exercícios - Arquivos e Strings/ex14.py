@@ -1,5 +1,10 @@
-import os
+'''
+Escreva um programa que copie o conteúdo de um arquivo para um novo arquivo.
+Seu programa deve testar se o arquivo de destino já existe e,
+se afirmativo, deve perguntar ao usuário se ele quer sobrescrevê-lo.
+'''
 
+import os
 
 def copiar_arquivo(origem: str, destino: str) -> None:
     try:
